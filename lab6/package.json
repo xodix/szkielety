@@ -1,0 +1,21 @@
+{
+  "name": "express-serwer",
+  "version": "1.0.0",
+  "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+  "keywords": [
+    "express",
+    "serwer"
+  ],
+  "license": "ISC",
+  "author": "Jan",
+  "type": "commonjs",
+  "main": "zad_01.js",
+  "scripts": {
+    "start": "node zad_01.js",
+    "dev": "nodemon zad_01.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
